@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automated Commercial Performance Dashboard — Camila Camarena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<div class="site-nav">
+  <nav class="wrap nav-bar">
+    <span class="nav-name">Camila Camarena<span class="dot">.</span></span>
+    <a href="../index.html#projects" class="nav-back">← Back to portfolio</a>
+  </nav>
+</div>
+
+<!-- CASE STUDY HERO -->
+<header class="case-hero">
+  <div class="wrap">
+    <span class="eyebrow">Power BI · Data Automation</span>
+    <h1>Automated Commercial Performance Dashboard.</h1>
+    <p>An automated pipeline that pulls straight from the CRM data cube and feeds a Power BI dashboard tracking pre-sales, sales velocity and unit separations across every active project — refreshing itself every day instead of waiting on a manual update.</p>
+    <div class="case-tags">
+      <span>Power BI</span><span>DAX</span><span>SQL / PostgreSQL</span><span>pgAdmin</span>
+    </div>
+  </div>
+</header>
+
+<!-- PROBLEM & SOLUTION -->
+<section class="case-section case-pair">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">The Problem</span>
+      <h2>Five projects, one manual report.</h2>
+      <p>Commercial performance — pre-sales, sales velocity, unit status, collections — had to be tracked across several active real-estate projects at once. Pulling that together by hand meant a report that was already outdated by the time it reached anyone.</p>
+    </div>
+    <div>
+      <span class="eyebrow">The Solution</span>
+      <h2>From CRM cube to daily dashboard.</h2>
+      <p>I connected directly to the CRM's data cube and built an ETL process in SQL, using pgAdmin to clean and transform the data before it reaches Power BI. DAX models on top calculate the commercial KPIs — sales pace vs. target, absorption, pricing per m² — for every project side by side. The whole pipeline refreshes automatically every day.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD EXPERIENCE / GALLERY -->
+<section class="case-section">
+  <div class="wrap">
+    <div class="inner">
+      <span class="eyebrow">Dashboard Experience</span>
+      <h2>From a portfolio view down to a single unit.</h2>
+      <p>The dashboard works at four levels: a portfolio overview comparing every project's sales pace and collections, a drill-down into one project's monthly sales and unit availability, a unit-by-unit price and sales-evolution view, and a customer profile view that Marketing uses to segment ad targeting.</p>
+    </div>
+
+    <div class="case-gallery">
+      <div class="gallery-item">
+        <img src="../assets/images/dashboard-overview.jpg" alt="Overview comparing sales pace and collections across all projects">
+      </div>
+      <p class="gallery-caption">Portfolio overview — sales pace vs. target, unit status and collections across every active project.</p>
+
+      <div class="gallery-item">
+        <img src="../assets/images/dashboard-project-detail.jpg" alt="Single-project drill-down showing monthly sales and unit availability">
+      </div>
+      <p class="gallery-caption">Project drill-down — monthly sales and separations, unit availability by floor, and financing mix.</p>
+
+      <div class="gallery-item">
+        <img src="../assets/images/dashboard-price-evolution.jpg" alt="Unit-level sales detail and price per square meter evolution over time">
+      </div>
+      <p class="gallery-caption">Unit-level detail and price-per-m² evolution, tracked in pricing tramos over time.</p>
+
+      <div class="gallery-item">
+        <img src="../assets/images/dashboard-customer-profile.jpg" alt="Customer profile dashboard showing demographics, origin and property preferences">
+      </div>
+      <p class="gallery-caption">Customer profile — demographics, how buyers find us, and their property preferences, used by Marketing to target ad spend.</p>
+    </div>
+  </div>
+</section>
+
+<!-- RESULT -->
+<section class="result-section">
+  <div class="wrap inner">
+    <span class="eyebrow">The Result</span>
+    <h2>A live view instead of a static report.</h2>
+    <div class="result-metrics">
+      <div class="metric">
+        <div class="num">5</div>
+        <div class="lbl">Real-estate projects tracked side by side</div>
+      </div>
+      <div class="metric">
+        <div class="num">4</div>
+        <div class="lbl">Detail levels — portfolio, project, unit, customer</div>
+      </div>
+      <div class="metric">
+        <div class="num">Daily</div>
+        <div class="lbl">Automated refresh, no manual updates</div>
+      </div>
+    </div>
+    <p class="closing">Giving Commercial, Finance and Marketing a live, trustworthy view of where every project stands.</p>
+  </div>
+</section>
+
+<!-- NEXT PROJECT -->
+<section class="next-project">
+  <div class="wrap">
+    <span class="eyebrow">Next Project</span>
+    <a href="market-intelligence.html">Market Intelligence &amp; Competitor Analysis →</a>
+  </div>
+</section>
+
+</body>
+</html>
